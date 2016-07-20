@@ -227,6 +227,11 @@ footer
     font-size:1.8em;
   }
 
+	h2.problem
+	{
+		text-align: left;
+	}
+	
   h2.solution
   {
     text-align: left;
