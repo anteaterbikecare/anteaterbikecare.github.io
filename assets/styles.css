@@ -85,6 +85,7 @@ div.content
   margin-top:2em;
   opacity: 0.9;
   margin-bottom:3em;
+  width:auto;
 }
 
 div.left
@@ -179,6 +180,15 @@ footer
   color:white;
   text-align: right;
   padding: 1.5em;
+}
+
+@media screen and (max-width:1330px)
+{
+  div.content
+  {
+    width:auto;
+    margin: 1em;
+  }
 }
 
 @media screen and (max-width:1000px)
