@@ -73,7 +73,7 @@ li {
   p {
     text-align: center;
   }
-  
+
   /* class styles */
   .nav {
     float:none;
@@ -85,5 +85,11 @@ li {
 
   .desktop {
     display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h4 {
+    font-size: 90%;
   }
 }
