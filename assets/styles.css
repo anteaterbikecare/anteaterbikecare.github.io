@@ -8,8 +8,7 @@ div.spacer {
     height:40px;
 }
 
-.nav-pills
-{
+.nav-pills {
   margin-top:1em;
 }
 
@@ -71,6 +70,10 @@ li {
     margin: auto;
   }
 
+  p {
+    text-align: center;
+  }
+  
   /* class styles */
   .nav {
     float:none;
